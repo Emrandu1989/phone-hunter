@@ -10,9 +10,20 @@
 <body class="text-center">
     <header>
           <h2 class="text-3xl font-bold my-5 text-orange-500">Phone Hunter</h2>
+         
     </header>
     <main>
-         
+          <section class="bg-gray-300 p-2 my-5 text-center">
+                <div >
+                    <input id="input-field" type="text" placeholder="Search" class="input input-bordered w-full max-w-xs" />
+                    <button onclick="handleSearch()" class="btn btn-accent">Search</button>
+                </div>
+          </section>
+         <section>
+              <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mx-2">
+              
+              </div>
+         </section>
     </main>
     <footer>
 
